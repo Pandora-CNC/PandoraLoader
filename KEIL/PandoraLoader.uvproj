@@ -420,11 +420,6 @@
           <GroupName>Source Group 1</GroupName>
           <Files>
             <File>
-              <FileName>Depop.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\PandoraLoader\Depop.c</FilePath>
-            </File>
-            <File>
               <FileName>heap.s</FileName>
               <FileType>2</FileType>
               <FilePath>..\..\PandoraLoader\heap.s</FilePath>
@@ -508,6 +503,16 @@
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>mfpga.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\mfpga.c</FilePath>
+            </File>
+            <File>
+              <FileName>mfpga.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\mfpga.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -927,11 +932,6 @@
           <GroupName>Source Group 1</GroupName>
           <Files>
             <File>
-              <FileName>Depop.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\PandoraLoader\Depop.c</FilePath>
-            </File>
-            <File>
               <FileName>heap.s</FileName>
               <FileType>2</FileType>
               <FilePath>..\..\PandoraLoader\heap.s</FilePath>
@@ -1015,6 +1015,16 @@
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>mfpga.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\mfpga.c</FilePath>
+            </File>
+            <File>
+              <FileName>mfpga.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\mfpga.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -1434,11 +1444,6 @@
           <GroupName>Source Group 1</GroupName>
           <Files>
             <File>
-              <FileName>Depop.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\PandoraLoader\Depop.c</FilePath>
-            </File>
-            <File>
               <FileName>heap.s</FileName>
               <FileType>2</FileType>
               <FilePath>..\..\PandoraLoader\heap.s</FilePath>
@@ -1522,6 +1527,16 @@
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>mfpga.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\mfpga.c</FilePath>
+            </File>
+            <File>
+              <FileName>mfpga.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\mfpga.h</FilePath>
             </File>
           </Files>
         </Group>

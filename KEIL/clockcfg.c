@@ -1,3 +1,13 @@
+// ===================================================================================================================
+// Project:				PandoraLoader
+// File:					clockcfg.h
+// Description:		Clock configurator header
+// Copyright:			(c) 2017, Pandora CNC Development Team; Consult the LICENSE file for further licensing information.
+// ===================================================================================================================
+
+// ===============
+// Local includes
+// ===============
 #include "clockcfg.h"
 #include "config.h"
 #include "hwinfo.h"
@@ -10,8 +20,12 @@
 #define CPU_DQSODS 0x1010
 #define CPU_CLKSKEW 0x00888800
 
+
+// ======================================
 // Determine the compile-time parameters
-// This is not inside the header file, since only this file will use the values
+// ======================================
+// This is not inside the header file, since this is the only file using the values.
+
 #if (PLL_TFREQ == 192000)
 	#define DDR2_SDTIME 0x21667525
 	#define DDR_SDMR 0x22

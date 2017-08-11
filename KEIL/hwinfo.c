@@ -1,3 +1,14 @@
+// ===================================================================================================================
+// Project:				PandoraLoader
+// File:					hwinfo.c
+// Description:		Hardware analyzer
+// Copyright:			(c) 2017, Pandora CNC Development Team; Consult the LICENSE file for further licensing information.
+// ===================================================================================================================
+
+// ===============
+// Local includes
+// ===============
+
 #include "hwinfo.h"
 #include "config.h"
 #include "errors.h"
@@ -6,10 +17,12 @@
 #include "../wblib.h"
 #include "../w55fa93_reg.h"
 
-/*
-	// Print ext. clock freq.
-	//sysprintf("Ext. clock frequency: %d MHz\n", extClockFreq / 1000);
-	*/
+
+// ====================================
+// The main hardware analysis function
+// ====================================
+// Requires a non-null pointer to a struct to be filled with the results.
+// Will return an error-code.
 
 uint8_t hwInfo(HWINFO_T* hw)
 {

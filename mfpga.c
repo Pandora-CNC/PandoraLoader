@@ -18,7 +18,7 @@
 
 #include <stdint.h>
 
-#include "../w55fa93_reg.h"
+#include "lib/sys/w55fa93_reg.h"
 
 #include "mfpga.h"
 #include "errors.h"
@@ -177,6 +177,7 @@ uint8_t mfpgaRead(uint8_t addr, uint16_t* data)
 	return ERR_NONE;
 }
 
+#ifndef FPGA_UART_DISABLE
 uint8_t mfpgaBuzzerSet(uint8_t state)
 {
 	if(!mfpgaInitialized)
@@ -196,7 +197,9 @@ uint8_t mfpgaBuzzerToggle(void)
 {
 	return mfpgaBuzzerSet(mfpgaBuzzerState ? MFPGA_BUZZER_OFF : MFPGA_BUZZER_ON);
 }
+#endif
 
+#ifdef FPGA_UART_MIRROR
 uint8_t mfpgaUartRawWrite(uint16_t f, uint16_t v)
 {
 	if(!mfpgaInitialized)
@@ -268,6 +271,6 @@ uint8_t mfpgaUartWrite(uint8_t data)
 	
 	return ERR_NONE;
 }
-
+#endif
 
 #endif

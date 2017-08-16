@@ -13,8 +13,8 @@
 #include "hwinfo.h"
 #include "errors.h"
 
-#include "../wblib.h"
-#include "../w55fa93_reg.h"
+#include "lib/sys/wblib.h"
+#include "lib/sys/w55fa93_reg.h"
 #include <stdint.h>
 
 #define CPU_DQSODS 0x1010

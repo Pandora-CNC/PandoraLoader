@@ -1,10 +1,6 @@
-KEIL/PandoraLoader_Data
-KEIL/PandoraLoader.uvgui.*
+PandoraLoader_Data
+PandoraLoader.uvgui.*
 *.bak
 *.TMP
-*.s
-*.c
-*.h
-*.scf
-!KEIL/*.c
-!KEIL/*.h
+PandoraLoader.scf
+lib/*

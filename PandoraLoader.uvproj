@@ -406,7 +406,7 @@
             <TextAddressRange>0x00000000</TextAddressRange>
             <DataAddressRange>0xF8002000</DataAddressRange>
             <pXoBase></pXoBase>
-            <ScatterFile>..\..\PandoraLoader\PandoraLoader.scf</ScatterFile>
+            <ScatterFile>.\PandoraLoader.scf</ScatterFile>
             <IncludeLibs></IncludeLibs>
             <IncludeLibsPath></IncludeLibsPath>
             <Misc>--entry Reset_Go</Misc>
@@ -422,47 +422,47 @@
             <File>
               <FileName>heap.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\..\PandoraLoader\heap.s</FilePath>
+              <FilePath>.\lib\sys\heap.s</FilePath>
             </File>
             <File>
               <FileName>NandDrv.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PandoraLoader\NandDrv.c</FilePath>
+              <FilePath>.\lib\nand\NandDrv.c</FilePath>
             </File>
             <File>
               <FileName>NandLoader.c</FileName>
-              <FileType>1</FileType>
+              <FileType>5</FileType>
               <FilePath>..\..\PandoraLoader\NandLoader.c</FilePath>
             </File>
             <File>
               <FileName>stack.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\..\PandoraLoader\stack.s</FilePath>
+              <FilePath>.\lib\sys\stack.s</FilePath>
             </File>
             <File>
               <FileName>standalone.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PandoraLoader\standalone.c</FilePath>
+              <FilePath>.\lib\sys\standalone.c</FilePath>
             </File>
             <File>
               <FileName>vectors.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\..\PandoraLoader\vectors.s</FilePath>
+              <FilePath>.\lib\sys\vectors.s</FilePath>
             </File>
             <File>
               <FileName>wb_config.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PandoraLoader\wb_config.c</FilePath>
+              <FilePath>.\lib\sys\wb_config.c</FilePath>
             </File>
             <File>
               <FileName>wb_init.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\..\PandoraLoader\wb_init.s</FilePath>
+              <FilePath>.\lib\sys\wb_init.s</FilePath>
             </File>
             <File>
               <FileName>wb_uart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PandoraLoader\wb_uart.c</FilePath>
+              <FilePath>.\lib\sys\wb_uart.c</FilePath>
             </File>
             <File>
               <FileName>types.h</FileName>
@@ -513,6 +513,16 @@
               <FileName>mfpga.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\mfpga.h</FilePath>
+            </File>
+            <File>
+              <FileName>W55FA93_usbh.lib</FileName>
+              <FileType>4</FileType>
+              <FilePath>.\lib\usb\W55FA93_usbh.lib</FilePath>
+            </File>
+            <File>
+              <FileName>Usb.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\lib\usb\Usb.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -918,7 +928,7 @@
             <TextAddressRange>0x00000000</TextAddressRange>
             <DataAddressRange>0xF8002000</DataAddressRange>
             <pXoBase></pXoBase>
-            <ScatterFile>..\..\PandoraLoader\PandoraLoader.scf</ScatterFile>
+            <ScatterFile>.\PandoraLoader.scf</ScatterFile>
             <IncludeLibs></IncludeLibs>
             <IncludeLibsPath></IncludeLibsPath>
             <Misc>--entry Reset_Go</Misc>
@@ -934,47 +944,47 @@
             <File>
               <FileName>heap.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\..\PandoraLoader\heap.s</FilePath>
+              <FilePath>.\lib\sys\heap.s</FilePath>
             </File>
             <File>
               <FileName>NandDrv.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PandoraLoader\NandDrv.c</FilePath>
+              <FilePath>.\lib\nand\NandDrv.c</FilePath>
             </File>
             <File>
               <FileName>NandLoader.c</FileName>
-              <FileType>1</FileType>
+              <FileType>5</FileType>
               <FilePath>..\..\PandoraLoader\NandLoader.c</FilePath>
             </File>
             <File>
               <FileName>stack.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\..\PandoraLoader\stack.s</FilePath>
+              <FilePath>.\lib\sys\stack.s</FilePath>
             </File>
             <File>
               <FileName>standalone.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PandoraLoader\standalone.c</FilePath>
+              <FilePath>.\lib\sys\standalone.c</FilePath>
             </File>
             <File>
               <FileName>vectors.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\..\PandoraLoader\vectors.s</FilePath>
+              <FilePath>.\lib\sys\vectors.s</FilePath>
             </File>
             <File>
               <FileName>wb_config.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PandoraLoader\wb_config.c</FilePath>
+              <FilePath>.\lib\sys\wb_config.c</FilePath>
             </File>
             <File>
               <FileName>wb_init.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\..\PandoraLoader\wb_init.s</FilePath>
+              <FilePath>.\lib\sys\wb_init.s</FilePath>
             </File>
             <File>
               <FileName>wb_uart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PandoraLoader\wb_uart.c</FilePath>
+              <FilePath>.\lib\sys\wb_uart.c</FilePath>
             </File>
             <File>
               <FileName>types.h</FileName>
@@ -1025,6 +1035,16 @@
               <FileName>mfpga.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\mfpga.h</FilePath>
+            </File>
+            <File>
+              <FileName>W55FA93_usbh.lib</FileName>
+              <FileType>4</FileType>
+              <FilePath>.\lib\usb\W55FA93_usbh.lib</FilePath>
+            </File>
+            <File>
+              <FileName>Usb.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\lib\usb\Usb.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -1430,7 +1450,7 @@
             <TextAddressRange>0x00000000</TextAddressRange>
             <DataAddressRange>0xF8002000</DataAddressRange>
             <pXoBase></pXoBase>
-            <ScatterFile>..\..\PandoraLoader\PandoraLoader.scf</ScatterFile>
+            <ScatterFile>.\PandoraLoader.scf</ScatterFile>
             <IncludeLibs></IncludeLibs>
             <IncludeLibsPath></IncludeLibsPath>
             <Misc>--entry Reset_Go</Misc>
@@ -1446,47 +1466,47 @@
             <File>
               <FileName>heap.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\..\PandoraLoader\heap.s</FilePath>
+              <FilePath>.\lib\sys\heap.s</FilePath>
             </File>
             <File>
               <FileName>NandDrv.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PandoraLoader\NandDrv.c</FilePath>
+              <FilePath>.\lib\nand\NandDrv.c</FilePath>
             </File>
             <File>
               <FileName>NandLoader.c</FileName>
-              <FileType>1</FileType>
+              <FileType>5</FileType>
               <FilePath>..\..\PandoraLoader\NandLoader.c</FilePath>
             </File>
             <File>
               <FileName>stack.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\..\PandoraLoader\stack.s</FilePath>
+              <FilePath>.\lib\sys\stack.s</FilePath>
             </File>
             <File>
               <FileName>standalone.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PandoraLoader\standalone.c</FilePath>
+              <FilePath>.\lib\sys\standalone.c</FilePath>
             </File>
             <File>
               <FileName>vectors.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\..\PandoraLoader\vectors.s</FilePath>
+              <FilePath>.\lib\sys\vectors.s</FilePath>
             </File>
             <File>
               <FileName>wb_config.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PandoraLoader\wb_config.c</FilePath>
+              <FilePath>.\lib\sys\wb_config.c</FilePath>
             </File>
             <File>
               <FileName>wb_init.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\..\PandoraLoader\wb_init.s</FilePath>
+              <FilePath>.\lib\sys\wb_init.s</FilePath>
             </File>
             <File>
               <FileName>wb_uart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\PandoraLoader\wb_uart.c</FilePath>
+              <FilePath>.\lib\sys\wb_uart.c</FilePath>
             </File>
             <File>
               <FileName>types.h</FileName>
@@ -1537,6 +1557,16 @@
               <FileName>mfpga.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\mfpga.h</FilePath>
+            </File>
+            <File>
+              <FileName>W55FA93_usbh.lib</FileName>
+              <FileType>4</FileType>
+              <FilePath>.\lib\usb\W55FA93_usbh.lib</FilePath>
+            </File>
+            <File>
+              <FileName>Usb.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\lib\usb\Usb.h</FilePath>
             </File>
           </Files>
         </Group>

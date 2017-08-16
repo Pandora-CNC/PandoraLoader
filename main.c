@@ -4,8 +4,8 @@
 #include "clockcfg.h"
 #include "errors.h"
 
-#include "../wblib.h"
-#include "../turbowriter.h"
+#include "lib/sys/wblib.h"
+#include "lib/sys/turbowriter.h"
 
 #include <stdint.h>
 #include <stdlib.h>

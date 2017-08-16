@@ -14,8 +14,8 @@
 #include "errors.h"
 
 #include <stdint.h>
-#include "../wblib.h"
-#include "../w55fa93_reg.h"
+#include "lib/sys/wblib.h"
+#include "lib/sys/w55fa93_reg.h"
 
 
 // ====================================

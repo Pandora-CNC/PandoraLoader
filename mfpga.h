@@ -21,7 +21,7 @@
 // =========
 #include <stdint.h>
 
-#include "../w55fa93_gpio.h"
+#include "lib/sys/w55fa93_gpio.h"
 
 
 // ========
@@ -50,8 +50,10 @@ uint8_t mfpgaBuzzerSet(uint8_t state);
 uint8_t mfpgaBuzzerGet(void);
 uint8_t mfpgaBuzzerToggle(void);
 
+#ifdef FPGA_UART_MIRROR
 uint8_t mfpgaUartInit(void);
 uint8_t mfpgaUartCleanup(void);
 uint8_t mfpgaUartRead(uint8_t* data);
+#endif
 
 #endif

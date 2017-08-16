@@ -15,12 +15,26 @@
 // Main UART baud rate
 #define UART_BAUD 115200
 
+// Disable all proprietairy vendor drivers (will disable the LCD and USB; won't disable the FPGA)
+//#define NONFREE_DISABLE
+
 // Disable all FPGA specific functions including the buzzer and the board version (if defined)
 //#define FPGA_DISABLE
 
-// Disable the buzzer (if defined)
+// Mirror the bootloader's internal UART output to the FPGA UART
+//#define FPGA_UART_MIRROR
+
+// Disable the buzzer (only if the FPGA is used)
 //#define BUZZER_DISABLE
 
+// Only allow the buzzer to beep on important events
+#define BUZZER_MINIMAL
+
+// Disable the LCD screen
+#define LCD_DISABLE
+
+// Disable the USB firmware upgrade/recovery mode
+#define USB_DISABLE
 
 // ==================================================================================
 // Automatic configuration based on build depending defines below and version number
